@@ -1,0 +1,11 @@
+Auto
+
+ID		numero  SMALL	    PRIMARY KEY UNIQUE AI
+Targa		stringa varchar(7)  NOT NULL UNIQUE
+Marca 		stringa varchar(30) NOT NULL 
+Modello 	stringa	varchar(30) NOT NULL 
+Colore		stringa	varchar(30) NOT NULL
+Km		numero	MEDIUMINT   NOT NULL	
+Anno		data 	year        NOT NULL
+Prezzo		numero 	float(7,2)  NOT NULL	
+Revisionata 	boolean	TYNYINT     DEFAULT(0)
